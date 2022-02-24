@@ -1,0 +1,503 @@
+import {Task} from './interface/Task'
+export const Tasks :Task[] = 
+[{
+  "id": 1,
+  "text": "Janessa",
+  "day": "2/23/2021",
+  "reminder": false
+}, {
+  "id": 2,
+  "text": "Egon",
+  "day": "6/22/2021",
+  "reminder": true
+}, {
+  "id": 3,
+  "text": "Gerik",
+  "day": "9/21/2021",
+  "reminder": true
+}, {
+  "id": 4,
+  "text": "Carly",
+  "day": "6/5/2021",
+  "reminder": false
+}, {
+  "id": 5,
+  "text": "Lori",
+  "day": "6/10/2021",
+  "reminder": false
+}, {
+  "id": 6,
+  "text": "Hendrika",
+  "day": "11/18/2021",
+  "reminder": false
+}, {
+  "id": 7,
+  "text": "Alexei",
+  "day": "6/16/2021",
+  "reminder": false
+}, {
+  "id": 8,
+  "text": "Rabi",
+  "day": "9/18/2021",
+  "reminder": true
+}, {
+  "id": 9,
+  "text": "Franz",
+  "day": "4/24/2021",
+  "reminder": false
+}, {
+  "id": 10,
+  "text": "Noel",
+  "day": "11/23/2021",
+  "reminder": true
+}, {
+  "id": 11,
+  "text": "Caleb",
+  "day": "12/11/2021",
+  "reminder": false
+}, {
+  "id": 12,
+  "text": "Vidovik",
+  "day": "11/10/2021",
+  "reminder": false
+}, {
+  "id": 13,
+  "text": "Bear",
+  "day": "4/22/2021",
+  "reminder": true
+}, {
+  "id": 14,
+  "text": "Amata",
+  "day": "3/4/2021",
+  "reminder": true
+}, {
+  "id": 15,
+  "text": "Court",
+  "day": "5/4/2021",
+  "reminder": true
+}, {
+  "id": 16,
+  "text": "Rodge",
+  "day": "10/31/2021",
+  "reminder": true
+}, {
+  "id": 17,
+  "text": "Marlo",
+  "day": "10/21/2021",
+  "reminder": false
+}, {
+  "id": 18,
+  "text": "Annalise",
+  "day": "11/1/2021",
+  "reminder": false
+}, {
+  "id": 19,
+  "text": "Randi",
+  "day": "5/1/2021",
+  "reminder": true
+}, {
+  "id": 20,
+  "text": "Sterling",
+  "day": "10/13/2021",
+  "reminder": false
+}, {
+  "id": 21,
+  "text": "Berrie",
+  "day": "9/7/2021",
+  "reminder": true
+}, {
+  "id": 22,
+  "text": "Ryan",
+  "day": "3/30/2021",
+  "reminder": false
+}, {
+  "id": 23,
+  "text": "Michal",
+  "day": "4/19/2021",
+  "reminder": true
+}, {
+  "id": 24,
+  "text": "Dorise",
+  "day": "1/31/2022",
+  "reminder": true
+}, {
+  "id": 25,
+  "text": "Ichabod",
+  "day": "4/25/2021",
+  "reminder": false
+}, {
+  "id": 26,
+  "text": "Gennifer",
+  "day": "7/4/2021",
+  "reminder": true
+}, {
+  "id": 27,
+  "text": "Perri",
+  "day": "12/20/2021",
+  "reminder": true
+}, {
+  "id": 28,
+  "text": "Heriberto",
+  "day": "5/10/2021",
+  "reminder": false
+}, {
+  "id": 29,
+  "text": "Anitra",
+  "day": "3/12/2021",
+  "reminder": true
+}, {
+  "id": 30,
+  "text": "Liva",
+  "day": "10/25/2021",
+  "reminder": true
+}, {
+  "id": 31,
+  "text": "Ursuline",
+  "day": "7/11/2021",
+  "reminder": false
+}, {
+  "id": 32,
+  "text": "Mattie",
+  "day": "1/25/2022",
+  "reminder": false
+}, {
+  "id": 33,
+  "text": "Krishnah",
+  "day": "9/5/2021",
+  "reminder": true
+}, {
+  "id": 34,
+  "text": "Thomasin",
+  "day": "5/10/2021",
+  "reminder": false
+}, {
+  "id": 35,
+  "text": "Ellynn",
+  "day": "6/20/2021",
+  "reminder": false
+}, {
+  "id": 36,
+  "text": "Stillmann",
+  "day": "5/28/2021",
+  "reminder": true
+}, {
+  "id": 37,
+  "text": "Dalia",
+  "day": "3/26/2021",
+  "reminder": false
+}, {
+  "id": 38,
+  "text": "Dominica",
+  "day": "4/10/2021",
+  "reminder": true
+}, {
+  "id": 39,
+  "text": "Cecily",
+  "day": "8/7/2021",
+  "reminder": true
+}, {
+  "id": 40,
+  "text": "Ianthe",
+  "day": "5/8/2021",
+  "reminder": false
+}, {
+  "id": 41,
+  "text": "Cristin",
+  "day": "9/29/2021",
+  "reminder": false
+}, {
+  "id": 42,
+  "text": "Orsola",
+  "day": "1/18/2022",
+  "reminder": false
+}, {
+  "id": 43,
+  "text": "Stepha",
+  "day": "8/30/2021",
+  "reminder": true
+}, {
+  "id": 44,
+  "text": "Dory",
+  "day": "6/1/2021",
+  "reminder": false
+}, {
+  "id": 45,
+  "text": "Colas",
+  "day": "9/25/2021",
+  "reminder": false
+}, {
+  "id": 46,
+  "text": "Bron",
+  "day": "10/28/2021",
+  "reminder": true
+}, {
+  "id": 47,
+  "text": "Kinny",
+  "day": "8/23/2021",
+  "reminder": true
+}, {
+  "id": 48,
+  "text": "Virginie",
+  "day": "10/30/2021",
+  "reminder": false
+}, {
+  "id": 49,
+  "text": "Skipton",
+  "day": "7/16/2021",
+  "reminder": false
+}, {
+  "id": 50,
+  "text": "Tadeo",
+  "day": "4/13/2021",
+  "reminder": true
+}, {
+  "id": 51,
+  "text": "Ladonna",
+  "day": "10/15/2021",
+  "reminder": true
+}, {
+  "id": 52,
+  "text": "Ogdan",
+  "day": "5/4/2021",
+  "reminder": false
+}, {
+  "id": 53,
+  "text": "Alvy",
+  "day": "4/15/2021",
+  "reminder": true
+}, {
+  "id": 54,
+  "text": "Marnia",
+  "day": "1/11/2022",
+  "reminder": false
+}, {
+  "id": 55,
+  "text": "Waring",
+  "day": "7/4/2021",
+  "reminder": false
+}, {
+  "id": 56,
+  "text": "Ruthy",
+  "day": "9/26/2021",
+  "reminder": true
+}, {
+  "id": 57,
+  "text": "Tandi",
+  "day": "12/2/2021",
+  "reminder": true
+}, {
+  "id": 58,
+  "text": "Elenore",
+  "day": "9/25/2021",
+  "reminder": false
+}, {
+  "id": 59,
+  "text": "Guinna",
+  "day": "5/17/2021",
+  "reminder": false
+}, {
+  "id": 60,
+  "text": "Jervis",
+  "day": "6/11/2021",
+  "reminder": false
+}, {
+  "id": 61,
+  "text": "Randolph",
+  "day": "12/7/2021",
+  "reminder": false
+}, {
+  "id": 62,
+  "text": "Deanna",
+  "day": "1/21/2022",
+  "reminder": false
+}, {
+  "id": 63,
+  "text": "Meara",
+  "day": "1/26/2022",
+  "reminder": true
+}, {
+  "id": 64,
+  "text": "Caleb",
+  "day": "2/12/2022",
+  "reminder": true
+}, {
+  "id": 65,
+  "text": "Owen",
+  "day": "7/25/2021",
+  "reminder": false
+}, {
+  "id": 66,
+  "text": "Rana",
+  "day": "3/12/2021",
+  "reminder": false
+}, {
+  "id": 67,
+  "text": "Kacie",
+  "day": "3/19/2021",
+  "reminder": false
+}, {
+  "id": 68,
+  "text": "Nelia",
+  "day": "3/16/2021",
+  "reminder": true
+}, {
+  "id": 69,
+  "text": "Vic",
+  "day": "2/20/2021",
+  "reminder": false
+}, {
+  "id": 70,
+  "text": "Ashia",
+  "day": "5/27/2021",
+  "reminder": false
+}, {
+  "id": 71,
+  "text": "Katalin",
+  "day": "12/3/2021",
+  "reminder": false
+}, {
+  "id": 72,
+  "text": "Dagny",
+  "day": "6/27/2021",
+  "reminder": true
+}, {
+  "id": 73,
+  "text": "Bethena",
+  "day": "12/21/2021",
+  "reminder": true
+}, {
+  "id": 74,
+  "text": "Kacy",
+  "day": "8/23/2021",
+  "reminder": true
+}, {
+  "id": 75,
+  "text": "Rufe",
+  "day": "6/22/2021",
+  "reminder": false
+}, {
+  "id": 76,
+  "text": "Elfreda",
+  "day": "8/24/2021",
+  "reminder": true
+}, {
+  "id": 77,
+  "text": "Korella",
+  "day": "11/19/2021",
+  "reminder": false
+}, {
+  "id": 78,
+  "text": "Suzann",
+  "day": "2/12/2022",
+  "reminder": false
+}, {
+  "id": 79,
+  "text": "Jessamine",
+  "day": "10/23/2021",
+  "reminder": false
+}, {
+  "id": 80,
+  "text": "Milka",
+  "day": "8/31/2021",
+  "reminder": false
+}, {
+  "id": 81,
+  "text": "Ericka",
+  "day": "9/8/2021",
+  "reminder": false
+}, {
+  "id": 82,
+  "text": "Robert",
+  "day": "6/26/2021",
+  "reminder": false
+}, {
+  "id": 83,
+  "text": "Astra",
+  "day": "1/26/2022",
+  "reminder": false
+}, {
+  "id": 84,
+  "text": "Valene",
+  "day": "2/6/2022",
+  "reminder": true
+}, {
+  "id": 85,
+  "text": "Maxie",
+  "day": "6/20/2021",
+  "reminder": true
+}, {
+  "id": 86,
+  "text": "Antoinette",
+  "day": "4/7/2021",
+  "reminder": false
+}, {
+  "id": 87,
+  "text": "Calypso",
+  "day": "11/30/2021",
+  "reminder": false
+}, {
+  "id": 88,
+  "text": "Ange",
+  "day": "9/19/2021",
+  "reminder": false
+}, {
+  "id": 89,
+  "text": "Baxter",
+  "day": "9/26/2021",
+  "reminder": false
+}, {
+  "id": 90,
+  "text": "Bryna",
+  "day": "11/23/2021",
+  "reminder": true
+}, {
+  "id": 91,
+  "text": "Maurits",
+  "day": "2/13/2022",
+  "reminder": true
+}, {
+  "id": 92,
+  "text": "Jerry",
+  "day": "2/24/2021",
+  "reminder": false
+}, {
+  "id": 93,
+  "text": "Steffie",
+  "day": "5/27/2021",
+  "reminder": false
+}, {
+  "id": 94,
+  "text": "Gardie",
+  "day": "2/1/2022",
+  "reminder": true
+}, {
+  "id": 95,
+  "text": "Samantha",
+  "day": "6/6/2021",
+  "reminder": false
+}, {
+  "id": 96,
+  "text": "Elliot",
+  "day": "10/20/2021",
+  "reminder": false
+}, {
+  "id": 97,
+  "text": "Joscelin",
+  "day": "9/12/2021",
+  "reminder": false
+}, {
+  "id": 98,
+  "text": "Ari",
+  "day": "10/14/2021",
+  "reminder": false
+}, {
+  "id": 99,
+  "text": "Noelyn",
+  "day": "10/3/2021",
+  "reminder": true
+}, {
+  "id": 100,
+  "text": "Lara",
+  "day": "9/29/2021",
+  "reminder": false
+}]
